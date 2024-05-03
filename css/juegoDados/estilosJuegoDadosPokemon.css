@@ -44,6 +44,12 @@ button {
     grid-column: 2/3;
 }
 
+#ganador {
+    position: absolute;
+    top: 25%;
+    right: 45%;
+}
+
 footer {
     display: flex;
     align-items: center;
