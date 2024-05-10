@@ -47,8 +47,5 @@ document.addEventListener("DOMContentLoaded", function() {
     // Agregar evento de envío al formulario de cookies
     cookiesForm.addEventListener("submit", aceptarCookies);
 
-        
-    function close(){
-        close();
-    };
+  
 });
