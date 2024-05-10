@@ -5,6 +5,56 @@
 
 }
 
+.aviso-cookies {
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: auto;
+    background-color: #504c4c;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
+
+.aviso-cookies form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.aviso-cookies label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#divBotonesCookies {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.aviso-cookies button {
+    background: #56257e;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-size: x-large;
+    padding: 15px;
+}
+
+.aviso-cookies button:hover {
+    transition: all 1s;
+    background-color: #bf8ff1;
+    color: white;
+}
+  
+
+
 /*Barra de navegación*/
 nav {
     z-index: 2;

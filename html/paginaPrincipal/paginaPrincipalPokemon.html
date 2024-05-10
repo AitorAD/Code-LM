@@ -10,6 +10,24 @@
 </head>
 
 <body>
+
+    <!-- Cookies -->
+    <div id="avisoCookies" class="aviso-cookies">
+        <h2 class="cookies__titulo">¿Aceptas nuestras Cookies?</h2>
+        <br>
+        <p class="cookies__texto">Usamos cookies para mejorar tu experiencia en la web.</p>
+        <br>
+        <form id="cookiesForm">
+            <label><input type="checkbox" name="cookiesAnaliticas"> Cookies Analíticas</label><br>
+            <label><input type="checkbox" name="cookiesPublicitarias"> Cookies Publicitarias</label><br>
+            <label><input type="checkbox" name="cookiesNecesarias" checked disabled> Cookies Necesarias</label><br>            <div id="divBotonesCookies">
+                <button type="submit" id="aceptarCookies">Aceptar</button>
+                <button type="submit" id="rechazarCookies" onclick="close()">Rechazar</button>
+            </div>
+        </form>
+    </div>
+
+
     <header>
         <img onclick="cambiarImgHeader('-1')" src="../../img/paginaPrincipal/paginaPrincipalPokemon/boton.webp"
             alt="boton">
@@ -149,5 +167,5 @@
     </footer>
 </body>
 <script src="../../js/paginaPrincipal/paginaPrincipalPokemon.js"></script>
-
+<script src="../../js/paginaPrincipal/cookies.js"></script>
 </html>
