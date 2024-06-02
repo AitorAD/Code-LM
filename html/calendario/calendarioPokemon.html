@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/calendario/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/calendario/calendarioPokemon.css">
+    <title>Main Page</title>
+</head>
+
+<body onload="fechaInicial()">
+    <nav>
+        <ul>
+            <li><a href="../../html/formulario/formularioPokemon.html" id="logIn">Log In</a></li>
+            <li><a href="./calendarioPokemon.html">Inicio</a></li>
+            <li><a href="https://www.wikidex.net/wiki/Lista_de_Pokémon">Pokédex</a></li>
+            <li>
+                <a href="#">Otros Trabajos</a>
+                <ul>
+                    <li><a href="../../html/curriculum/CurriculoJunichiMasuda.html">Curriculum</a></li>
+                    <li><a href="../frase/frasesPokemon.html">Frases</a></li>
+                    <li><a href="../escala/EscalaPokemon.html">Escala</a></li>
+                    <li><a href="../dialogo/dialogoPokemon.html">Dialogo</a></li>
+                    <li><a href="../comparativa/comparativaPokemon.html">Comparativa</a></li>
+                </ul>
+            </li>
+        </ul>
+        <img src="../../img/calendario/logo.webp" alt="logo">
+    </nav>
+    <main>
+        <article id="calendario">
+            <h1 id="anyoActual">2000</h1>
+            <section id="calendario-head">
+                <button onclick="prev()" type="button">&#10096;</button>
+                <h2 id="mesActual">Enero</h2>
+                <button onclick="next()" type="button">&#10097;</button>
+            </section>
+            <section id="dias-semana">
+                <span>L</span>
+                <span>M</span>
+                <span>X</span>
+                <span>J</span>
+                <span>V</span>
+                <span>S</span>
+                <span>D</span>
+            </section>
+            <div id="dias"></div>
+        </article>
+    </main>
+    <footer>
+        <section id="social-media">
+            <a href="https://twitter.com/Pokemon_ES_ESP">
+                <img src="../../img/paginaPrincipal/paginaPrincipalPokemon/Twitter_X.webp" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/pokemon/?hl=es">
+                <img src="../../img/paginaPrincipal/paginaPrincipalPokemon/instagram.webp" alt="instagram">
+            </a>
+            <a href="https://www.tiktok.com/@pokemon?is_from_webapp=1&sender_device=pc">
+                <img src="../../img/paginaPrincipal/paginaPrincipalPokemon/tiktok.webp" alt="tiktok">
+            </a>
+            <a href="https://www.youtube.com/@PokemonOficialES">
+                <img src="../../img/paginaPrincipal/paginaPrincipalPokemon/youtube.webp" alt="youtube">
+            </a>
+        </section>
+
+        <span>Aitor Agulló Duque</span>
+
+        <!-- contador de visitas -->
+        <section id="contador-visitas">
+            <div id="sfc4s4tu7nygzmy7e61c567pgdm9ectdely"></div>
+            <script type="text/javascript"
+                src="https://counter4.optistats.ovh/private/counter.js?c=4s4tu7nygzmy7e61c567pgdm9ectdely&down=async"
+                async></script>
+        </section>
+    </footer>
+</body>
+<script src="../../js/calendario/calendarioPokemon.js"></script>
+
+</html>
